@@ -37,6 +37,7 @@
     ".eslintrc",
     ".gitignore",
     "LICENSE",
+    "README.md",
     "index.js"
   ]
 }
