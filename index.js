@@ -60,9 +60,6 @@ module.exports = name => {
   } else {
     label = name;
   }
-  const label = typeof name === 'string' ?
-    name :
-    path.relative(root, name.filename).replace(/\.js$/, '');
   const boleLog = bole ? bole(label) : null;
 
   return levelsArr.reduce((log, level) => {
