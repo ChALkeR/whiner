@@ -1,0 +1,42 @@
+{
+  "name": "whiner",
+  "version": "0.0.1",
+  "description": "A logger that tries to do the correct thing",
+  "main": "index.js",
+  "keywords": [
+    "logging",
+    "json",
+    "systemd",
+    "journald"
+  ],
+  "author": {
+    "name": "Сковорода Никита Андреевич",
+    "email": "chalkerx@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chalker/whiner.git"
+  },
+  "dependencies": {
+    "fast-safe-stringify": "^1.1.3"
+  },
+  "optionalDependencies": {
+    "bole": "^3.0.2",
+    "systemd-journald": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.14.0",
+    "eslint-plugin-babel": "^4.0.1"
+  },
+  "scripts": {
+    "lint": "eslint --cache *.js",
+    "test": "npm run lint"
+  },
+  "files": [
+    ".eslintrc",
+    ".gitignore",
+    "LICENSE",
+    "index.js"
+  ]
+}
