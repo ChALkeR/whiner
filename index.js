@@ -21,7 +21,7 @@ const levels = {
   critical: { journald: 'crit', console: 'error', bole: 'error' },
   error: { journald: 'err', console: 'error', bole: 'error' },
   alert: { journald: 'alert', console: 'warn', bole: 'warn' },
-  warn: { journald: 'warn', console: 'warn', bole: 'warn' },
+  warning: { journald: 'warn', console: 'warn', bole: 'warn' },
   info: { journald: 'info', console: 'info', bole: 'info' },
   notice: { journald: 'notice', console: 'info', bole: 'info' },
   debug: { journald: 'debug', console: 'log', bole: 'debug' }
