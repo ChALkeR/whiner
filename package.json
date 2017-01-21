@@ -1,6 +1,6 @@
 {
   "name": "whiner",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "A logger that tries to do the correct thing",
   "main": "index.js",
   "keywords": [
