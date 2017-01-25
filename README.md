@@ -27,15 +27,15 @@ log.debug(message, info);
 ## Log levels
 
 * `emerg` — `emerg` in journald, `error` in bole,
+* `alert` — `alert` in journald, `error` in bole,
 * `crit` — `crit` in journald, `error` in bole,
 * `error` — `err` in journald, `error` in bole,
-* `alert` — `alert` in journald, `warn` in bole,
-* `warn` — `warn` in journald, `warn` in bole,
-* `info` — `info` in journald, `info` in bole,
+* `warn` — `warning` in journald, `warn` in bole,
 * `notice` — `notice` in journald, `info` in bole,
+* `info` — `info` in journald, `info` in bole,
 * `debug` — `debug` in journald, `debug` in bole.
 
-Notice: `emerg` triggers a global notification with journald, use it wisely.
+Notice: `emerg` triggers a broadcast message with journald, use it wisely.
 
 ## License
 
