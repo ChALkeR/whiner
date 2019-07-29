@@ -26,8 +26,7 @@
     "systemd-journald": "^1.2.0"
   },
   "devDependencies": {
-    "eslint": "^3.14.0",
-    "eslint-plugin-babel": "^4.0.1"
+    "eslint": "^4.19.1"
   },
   "scripts": {
     "lint": "eslint --cache *.js",
